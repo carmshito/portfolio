@@ -7,6 +7,11 @@
   color: #237457;
 }
 
+.container {
+  max-width: 100%;
+  padding: 0 1rem;
+}
+
 .nav-bar-text {
   display: flex;
   align-items: center;
@@ -16,4 +21,12 @@
 .nav-bar-name {
   font-weight: 1000;
   font-size: 26px;
+}
+
+a {
+  padding-left: 1rem;
+}
+
+a:hover {
+  filter: brightness(1.2);
 }
