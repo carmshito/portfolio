@@ -1,0 +1,29 @@
+@import "_variables";
+
+.profile-picture-window {
+  display: flex;
+  background-color: $light-green;
+  position: fixed;
+  padding: 0;
+  z-index: 1;
+  top: 35%;
+  left: 58%;
+  width: 32%;
+  height: 55%;
+  border-radius: 30px;
+  border: 5px solid $main-green;
+  overflow: hidden;
+  box-shadow: 15px 15px 0 0 rgba($main-green, 1);
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-picture-image {
+  width: 55%;
+  margin-top: 30px;
+  align-self: center;
+  display: flex;
+  justify-self: center;
+  border-radius: 100%;
+  border: 10px solid $yellow;
+}

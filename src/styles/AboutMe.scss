@@ -16,6 +16,7 @@
 
 .window-header {
   display: flex;
+  align-self: flex-start;
   align-items: center;
   background-color: $yellow;
   position: absolute;

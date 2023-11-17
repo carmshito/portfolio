@@ -5,6 +5,7 @@ import SideNavBar from './components/SideNavBar';
 import AboutMe from './components/AboutMe';
 import MyProjects from './components/MyProjects';
 import ContactMe from './components/ContactMe';
+import ProfilePicture from './components/ProfilePicture';
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <TopNavBar />
       <SideNavBar />
       <AboutMe />
+      <ProfilePicture />
       <MyProjects />
       <ContactMe />
     </main>
