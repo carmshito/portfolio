@@ -1,4 +1,5 @@
 import './App.scss';
+
 import TopNavBar from './components/TopNavBar';
 import SideNavBar from './components/SideNavBar';
 import AboutMe from './components/AboutMe';

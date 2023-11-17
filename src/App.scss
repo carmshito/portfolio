@@ -5,4 +5,10 @@ body {
   background-image: url('/assets/green-bg-grid.png');
   background-size: cover; /* Optional: Adjust based on your design preferences */
   background-position: center; /* Optional: Adjust based on your design preferences */
+  background-attachment: fixed;
+  box-sizing: border-box;
+}
+
+main {
+  height: 100%;
 }

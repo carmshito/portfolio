@@ -11,7 +11,6 @@ import ContactMeIcon from "../assets/contact-me-icon.png";
 
 const SideNavBar = () => {
   return (
-    <section className="side-nav-bar">
       <Container className="icon-container">
         <a href="" className="side-bar-icon">
           <img src={AboutMeIcon} alt="About Me" />
@@ -26,7 +25,6 @@ const SideNavBar = () => {
           <img src={ContactMeIcon} alt="Contact Me" />
         </a>
       </Container>
-    </section>
   );
 }
 
