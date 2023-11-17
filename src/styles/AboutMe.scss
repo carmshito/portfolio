@@ -37,3 +37,20 @@
   font-size: 23px;
   color: $main-green;
 }
+
+.hello-text {
+  margin: 40px 0 0 15px;
+  font-size: 200px;
+  font-family: $about-me-font;
+  font-weight: 1000px;
+  color: $dark-yellow;
+  font-style: italic;
+}
+
+.about-me-text {
+  width: 55%;
+  margin-left: 25px;
+  font-family: $about-me-font;
+  font-size: 25px;
+  color: $main-green;
+}
