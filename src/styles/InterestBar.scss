@@ -1,1 +1,27 @@
 @import "_variables";
+
+.interest-container {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-direction: row;
+  height: 40%;
+}
+
+.interest-bar {
+  background-color: $main-green;
+  width: 80%;
+  height: 10%;
+  position: fixed;
+  margin-top: 5px;
+  border-radius: 40px;
+}
+
+.emoji-icon {
+  width: 85px;
+  margin: 0 30px 0 30px;
+}
+
+.emoji-icon:hover {
+  filter: brightness(1.1);
+}
