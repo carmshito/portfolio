@@ -12,17 +12,17 @@ import ContactMeIcon from "../assets/contact-me-icon.png";
 const SideNavBar = () => {
   return (
       <Container className="icon-container">
-        <a href="" className="side-bar-icon">
-          <img src={AboutMeIcon} alt="About Me" />
+        <a href="">
+          <img src={AboutMeIcon} alt="About Me" className="side-bar-icon"/>
         </a>
-        <a href="" className="side-bar-icon">
-          <img src={MySkillsIcon} alt="My Skills" />
+        <a href="">
+          <img src={MySkillsIcon} alt="My Skills" className="side-bar-icon"/>
         </a>
-        <a href="" className="side-bar-icon">
-          <img src={MyProjectsIcon} alt="My Projects" />
+        <a href="">
+          <img src={MyProjectsIcon} alt="My Projects" className="side-bar-icon"/>
         </a>
-        <a href="" className="side-bar-icon">
-          <img src={ContactMeIcon} alt="Contact Me" />
+        <a href="">
+          <img src={ContactMeIcon} alt="Contact Me" className="side-bar-icon"/>
         </a>
       </Container>
   );
