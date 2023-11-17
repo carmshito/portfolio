@@ -4,6 +4,14 @@
   background-color: $yellow;
   border-bottom: 5px solid $main-green;
   color: $main-green;
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+}
+
+.drop-down {
+  padding-left: 1rem;
+  font-size: 24px;
+  align-self: center;
 }
 
 .container {
@@ -18,7 +26,7 @@
 
 .nav-bar-name {
   font-weight: 700;
-  font-size: 26px;
+  font-size: 25px;
 }
 
 a {

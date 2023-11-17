@@ -3,7 +3,7 @@ const CactusSvg = (props) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width={33}
-    height={35}
+    height={34}
     fill="none"
     {...props}
   >

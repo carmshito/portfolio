@@ -1,4 +1,12 @@
-import { Navbar, Container } from "react-bootstrap";
+import {
+  Navbar,
+  Container,
+  Offcanvas,
+  NavDropdown,
+  Nav,
+  Form,
+  Button,
+} from "react-bootstrap";
 
 import "../styles/TopNavBar.scss";
 
@@ -18,6 +26,11 @@ const TopNavBar = () => {
             <CactusSvg />
           </Navbar.Brand>
           <span className="nav-bar-name">Carmelia Shito</span>
+            <NavDropdown title="Settings" id="basic-nav-dropdown" className="drop-down">
+              <NavDropdown.Item href="#action/3.1">Dark Mode</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.2">Ocean</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3">Pastel</NavDropdown.Item>
+            </NavDropdown>
         </div>
         <div>
           <BatterySvg />
