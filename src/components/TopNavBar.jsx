@@ -31,7 +31,7 @@ const TopNavBar = () => {
         <div>
           <BatterySvg />
           <WifiSvg />
-          <a href="#">
+          <a href="https://resume.creddle.io/resume/d8gbd35ohs">
             <CVIconSvg />
           </a>
           <a href="https://www.linkedin.com/in/carmelia-shito/">
